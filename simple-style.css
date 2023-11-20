@@ -9,6 +9,9 @@ body {
     background-color: white;
 }
 
+a {
+    text-decoration-line: none;
+}
 
 p {
     color: #1F1717;
@@ -37,8 +40,9 @@ p {
     flex-direction: row;
 }
 
-a {
-    text-decoration: none;
+.bachhu {
+    text-decoration-line: underline;
+    color: #1F1717;
 }
 
 .hero {
@@ -105,4 +109,20 @@ span {
 #copyButton:active {
     position: relative;
     scale: 0.95;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: #F4BF96;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:active {
+    color: #BE3144;
 }
