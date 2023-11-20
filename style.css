@@ -9,9 +9,6 @@ body {
     background-color: white;
 }
 
-a {
-    text-decoration: none;
-}
 
 p {
     color: #1F1717;
@@ -22,13 +19,15 @@ p {
     align-items: center;
     padding: 10px;
     position: sticky;
-    z-index: 1;
+    background: #FCF5ED;
+    z-index: 10;
     justify-content: space-around;
     border-bottom: 0.7px solid #1f17179b;
 }
 
+
 .title a {
-    color: #CE5A67;
+    color: black;
     font-weight: bold;
 }
 
@@ -36,6 +35,10 @@ p {
     display: flex;
     gap: 1rem;
     flex-direction: row;
+}
+
+a {
+    text-decoration: none;
 }
 
 .hero {
@@ -47,12 +50,13 @@ p {
 }
 
 .hero>p {
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 13px;
     margin-top: 8px;
 }
 
 h1 {
-    padding: 200px 200px;
+    padding: 20px 30px;
     text-align: center;
     border-radius: 10px;
     background: #F4BF96;
@@ -64,7 +68,7 @@ span {
 }
 
 .myButton {
-    background-color: #CE5A67;
+    background-color: #872341;
     border-radius: 28px;
     border: none;
     display: inline-block;
@@ -74,14 +78,31 @@ span {
     margin-top: 20px;
     padding: 10px 20px;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
 }
 
 .myButton:hover {
-    background-color: #bb525e;
+    background-color: #741e38;
 }
 
 .myButton:active {
     position: relative;
-    top: 1px;
+    scale: 0.95;
+}
+
+#copyButton {
+    background-color: rgba(0, 0, 0, 0.183);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#copyButton:active {
+    position: relative;
+    scale: 0.95;
 }
